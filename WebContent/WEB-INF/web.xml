@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>twitter</display-name>
+  <servlet>
+    <servlet-name>RankServlet</servlet-name>
+    <servlet-class>com.java.pack.RankServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RankServlet</servlet-name>
+    <url-pattern>/RankServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SimilarityServlet</servlet-name>
+    <servlet-class>com.java.pack.SimilarityServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SimilarityServlet</servlet-name>
+    <url-pattern>/SimilarityServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+</web-app>
